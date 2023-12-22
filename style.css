@@ -1,0 +1,251 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+
+    display: flex;
+    justify-content:space-around;
+    text-align:center;
+    align-items: center;
+    background-color: black;
+    border: 5px solid white;
+    
+   
+}
+.serch{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 700;
+    text-align:center;
+    align-items: center;
+    background-color: aqua;
+    height: 50px;
+    padding: 10px;
+
+}
+.btn{
+    width: 100px;
+    
+}
+input{
+    width: 500px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.logo h1{
+    color: white;
+}
+.logo span{
+    color: rgb(13, 224, 239);
+}
+.icon i{
+    padding: 10px;
+    margin: 2px;
+    font-size: 30px;
+    transition: 0.4s;
+    color: rgb(250, 246, 246);
+    transition: 0.4s ease-in-out;
+}
+.icon i:hover{
+    color: aqua;
+    transform: rotate(360deg);
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+}
+.select{
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+.list{
+    display: none;
+    
+    
+    
+}
+.list ul li {
+    
+    
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border-bottom: 1px solid rgb(8, 7, 7);
+    align-items: center;
+    
+
+}
+.list ul li a{
+     text-decoration: none;
+}
+.select:hover .list{
+    display: block;
+    position: absolute;
+    background: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    align-items: center;
+    color: black;
+
+
+}
+.list ul li :hover{
+    background-color: brown;
+   
+}
+.but{
+    padding: 10px;
+    background-color: rgb(12, 157, 240);
+    color: white;
+    border-radius: 5px;
+}
+.but:hover{
+    background-color: rgb(28, 195, 28);
+}
+section{
+    background: url(i.jpg);
+}
+.lista {
+    padding: 10px;
+    
+    
+}
+.conten button{
+    padding: 5px 10px;
+    background-color: rgb(22, 209, 22);
+}
+.conten button:hover{
+    background-color: red;
+}
+.lista ul li {
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(15, 232, 207);
+    color: white;
+}
+.lista ul li a{
+    text-decoration: none;
+    list-style: none;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 2px 5px rgb(139, 137, 137);
+    
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+}
+.imga{
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    border: 1px  solid black;
+    border-radius: 2% 10% ;
+    
+}
+.imga:hover{
+    background-color: brown;
+}
+.imga img{
+    width: 150px;
+    height: 150px;
+}
+.wt img{
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+.watch{
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px 5px rgba(1,1,1,0.2);
+
+
+}
+.shirt{
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px 5px rgba(1,1,1,0.2);
+}
+.shoes{
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px 5px rgba(1,1,1,0.2);
+}
+.tshirt{
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px 5px rgba(1,1,1,0.2);
+}
+.jeans{
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px 5px rgba(1,1,1,0.2);
+}
+.watchall{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    padding-top: 40px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+  }
+  .foot .about{
+    width: 150px;
+    
+  }
+  .foot .price h5{
+    padding: 10px;
+
+  }
+  .foot .product h5{
+    padding: 10px;
+  }
+  .foot .contact h5{
+    padding: 10px;
+  }
+  @media screen and (max-width: 500px){
+    .watch{
+        width: 100%;
+    }
+  }
+
+
